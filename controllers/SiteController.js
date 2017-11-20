@@ -4,7 +4,7 @@ SiteController.Index = function(req, resp){
 
   //resp.render('site/index',{welcomeMessage: "Welcome to the Home Page"})
 
-  resp.render('/index')
+  resp.render('index.ejs')
 
 }
 
